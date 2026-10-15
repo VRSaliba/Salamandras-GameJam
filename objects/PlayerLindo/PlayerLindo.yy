@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
+  "%Name":"PlayerLindo",
   "eventList":[],
   "managed":true,
-  "name":"Player",
+  "name":"PlayerLindo",
   "overriddenProperties":[],
   "parent":{
     "name":"Salamandras GameJam",
