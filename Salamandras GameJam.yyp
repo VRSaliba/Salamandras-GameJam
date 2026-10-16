@@ -19,9 +19,6 @@
   },
   "name":"Salamandras GameJam",
   "resources":[
-    {"id":{"name":"Bojeto3","path":"objects/Bojeto3/Bojeto3.yy",},},
-    {"id":{"name":"Obbjeto","path":"objects/Obbjeto/Obbjeto.yy",},},
-    {"id":{"name":"PlayerLindo","path":"objects/PlayerLindo/PlayerLindo.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
