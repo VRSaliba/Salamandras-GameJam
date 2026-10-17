@@ -19,6 +19,7 @@
   },
   "name":"Salamandras GameJam",
   "resources":[
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},},
     {"id":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},},
     {"id":{"name":"obj_enemy_melee","path":"objects/obj_enemy_melee/obj_enemy_melee.yy",},},
@@ -28,6 +29,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
