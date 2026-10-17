@@ -23,7 +23,7 @@
   ],
   "name":"Sprite1",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Salamandras GameJam",
     "path":"Salamandras GameJam.yyp",
@@ -50,7 +50,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":1.0,
-    "lockOrigin":false,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -75,8 +75,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":32,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
