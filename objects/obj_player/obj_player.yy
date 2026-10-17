@@ -14,9 +14,10 @@
   "name":"obj_player",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"health","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"life","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"armor","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"attack_speed","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"attack_dmg","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Salamandras GameJam",
