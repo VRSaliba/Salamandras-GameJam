@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 77C2B28B
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "xpos" "self.x"
+/// @DnDArgument : "ypos" "self.y"
 /// @DnDArgument : "objectid" "obj_bullet"
 /// @DnDSaveInfo : "objectid" "obj_bullet"
-instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+instance_create_layer(self.x, self.y, "Instances", obj_bullet);
