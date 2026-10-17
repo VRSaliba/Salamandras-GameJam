@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Salamandras GameJam",
-    "path":"Salamandras GameJam.yyp",
+    "name":"enemies",
+    "path":"folders/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

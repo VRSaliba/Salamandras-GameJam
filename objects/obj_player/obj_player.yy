@@ -20,8 +20,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"attack_dmg","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
-    "name":"Salamandras GameJam",
-    "path":"Salamandras GameJam.yyp",
+    "name":"player",
+    "path":"folders/player.yy",
   },
   "parentObjectId":{
     "name":"obj_character_base",

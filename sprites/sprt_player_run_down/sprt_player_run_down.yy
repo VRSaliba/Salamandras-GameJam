@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Salamandras GameJam",
-    "path":"Salamandras GameJam.yyp",
+    "name":"player",
+    "path":"folders/player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
