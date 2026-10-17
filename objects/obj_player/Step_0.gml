@@ -1,4 +1,4 @@
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+//image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 var l0DC19EC2_0;
 l0DC19EC2_0 = mouse_check_button_pressed(mb_left);
@@ -17,24 +17,25 @@ if (l0DC19EC2_0)
 	}
 }
 
-/*
+
 if (keyboard_check(ord("A"))){
-	x -= 4;
+	x -= move_speed;
 	sprite_index = sprt_player_run_left;
 	_moving = true;
 }
 else if (keyboard_check(ord("D"))){
-	x += 4;
+	x += move_speed;
+;
 	sprite_index = sprt_player_run_right;
 	_moving = true;
 }
 else if (keyboard_check(ord("W"))){
-	y -= 4;
+	y -= move_speed;
 	sprite_index = sprt_player_run_up;
 	_moving = true;
 }
 else if (keyboard_check(ord("S"))){
-	y += 4;
+	y += move_speed;
 	sprite_index = sprt_player_run_down;
 	_moving = true;
 }
@@ -52,4 +53,4 @@ if (!_moving){
 if (_moving){
 	image_speed = 0.3; 
 }
-*/
+
