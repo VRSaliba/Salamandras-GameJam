@@ -50,9 +50,9 @@ var l0DC19EC2_0;l0DC19EC2_0 = mouse_check_button_pressed(mb_left);if (l0DC19EC
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 69C22896
+		/// @DnDHash : 7C0968A1
 		/// @DnDParent : 53542EDB
-		/// @DnDArgument : "expr" "damage"
+		/// @DnDArgument : "expr" "obj_player.attack_dmg"
 		/// @DnDArgument : "var" "damage"
-		damage = damage;
+		damage = obj_player.attack_dmg;
 	}}
