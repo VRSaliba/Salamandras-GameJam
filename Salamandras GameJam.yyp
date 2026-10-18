@@ -31,7 +31,6 @@
     {"id":{"name":"obj_level_base","path":"objects/obj_level_base/obj_level_base.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
-    {"id":{"name":"obj_xp","path":"objects/obj_xp/obj_xp.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"KillEnemy_script","path":"scripts/KillEnemy_script/KillEnemy_script.yy",},},

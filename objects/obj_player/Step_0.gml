@@ -55,3 +55,9 @@ if (_moving){
 	image_speed = 0.3; 
 }
 
+if current_exp >= max_exp
+{
+	current_level++;
+	current_exp = current_exp - max_exp;
+	max_exp = max_exp * 1.2
+}
