@@ -1,5 +1,25 @@
 //image_angle = point_direction(x, y, mouse_x, mouse_y);
 
+depth = -y;
+
+
+/////// COLLISION
+var _move = 0;
+
+if (keyboard_check(ord("D")) || keyboard_check(ord("S"))) _move = 4;
+ else if (keyboard_check(ord("A")) || keyboard_check(ord("W"))) _move = -4;
+ 
+ if (place_meeting(x + _move, y, obj_colision) == false)
+ {
+	 x += _move;
+ }
+ else  if (place_meeting(x, y + _move, obj_colision) == false)
+ {
+	 y += _move;
+ }
+////////////
+
+
 var l5C9D43FD_0;
 l5C9D43FD_0 = mouse_check_button_pressed(mb_left);
 if (l5C9D43FD_0) and (can_input == true) and point_distance(x, y, mouse_x, mouse_y) > 10
