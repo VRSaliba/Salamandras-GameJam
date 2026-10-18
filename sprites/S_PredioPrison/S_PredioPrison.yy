@@ -44,8 +44,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"Salamandras GameJam",
-    "path":"Salamandras GameJam.yyp",
+    "name":"Scene",
+    "path":"folders/Scene.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

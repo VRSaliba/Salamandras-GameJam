@@ -8,8 +8,8 @@
   "name":"OBJ_PredioPrison",
   "overriddenProperties":[],
   "parent":{
-    "name":"Salamandras GameJam",
-    "path":"Salamandras GameJam.yyp",
+    "name":"Scene",
+    "path":"folders/Scene.yy",
   },
   "parentObjectId":null,
   "persistent":false,
