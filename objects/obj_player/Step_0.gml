@@ -18,31 +18,33 @@ if (l0DC19EC2_0)
 }
 
 
-if (keyboard_check(ord("A"))){
-	x -= move_speed;
-	sprite_index = sprt_player_run_left;
-	_moving = true;
-}
-else if (keyboard_check(ord("D"))){
-	x += move_speed;
-;
-	sprite_index = sprt_player_run_right;
-	_moving = true;
-}
-else if (keyboard_check(ord("W"))){
-	y -= move_speed;
-	sprite_index = sprt_player_run_up;
-	_moving = true;
-}
-else if (keyboard_check(ord("S"))){
-	y += move_speed;
-	sprite_index = sprt_player_run_down;
-	_moving = true;
-}
-else if (keyboard_check_pressed(vk_nokey)){
-	_moving = false;
-} 
+if(can_input){
 
+	if (keyboard_check(ord("A"))){
+		x -= move_speed;
+		sprite_index = sprt_player_run_left;
+		_moving = true;
+	}
+	else if (keyboard_check(ord("D"))){
+		x += move_speed;
+	;
+		sprite_index = sprt_player_run_right;
+		_moving = true;
+	}
+	else if (keyboard_check(ord("W"))){
+		y -= move_speed;
+		sprite_index = sprt_player_run_up;
+		_moving = true;
+	}
+	else if (keyboard_check(ord("S"))){
+		y += move_speed;
+		sprite_index = sprt_player_run_down;
+		_moving = true;
+	}
+	else if (keyboard_check_pressed(vk_nokey)){
+		_moving = false;
+	} 
+}
 
 if (!_moving){
 	sprite_index = Sprite1;

@@ -3,3 +3,5 @@ image_index = 0;
 
 _moving = false;
 
+can_input = true;
+
