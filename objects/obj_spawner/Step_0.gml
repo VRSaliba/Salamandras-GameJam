@@ -21,7 +21,7 @@ if (timer >= current_spawn_interval){
 }
 	if random(99) > 14
 	{
-		enemy_being_spawned = instance_create_layer(sx, sy, "Instances", obj_enemy_melee);
+		enemy_being_spawned = instance_create_layer(sx, sy, "Instances", obj_enemy_cactus);
 	}
 	else
 	{

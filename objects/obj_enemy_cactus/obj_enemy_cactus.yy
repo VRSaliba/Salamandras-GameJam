@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_enemy_cactus",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_enemy_cactus",
   "overriddenProperties":[
@@ -10,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"life","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_character_base","path":"objects/obj_character_base/obj_character_base.yy",},"propertyId":{"name":"attack_dmg","path":"objects/obj_character_base/obj_character_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
   ],
   "parent":{
     "name":"cactus",
