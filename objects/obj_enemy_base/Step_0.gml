@@ -8,5 +8,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= attack_range and can_att
 	{
 		case 1: sprite_index = spr_bush_attack;
 				alarm[1] = 13;
+		case 2: sprite_index = Sprite19;
+				alarm[1] = 13;
 	}
 }
