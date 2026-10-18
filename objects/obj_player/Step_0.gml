@@ -17,7 +17,6 @@ if (l0DC19EC2_0)
 	}
 }
 
-
 if(can_input){
 
 	if (keyboard_check(ord("A"))){
