@@ -38,6 +38,8 @@
     {"$GMObjectProperty":"v2","%Name":"player_max_exp_checkpoint","filters":[],"listItems":[],"multiselect":false,"name":"player_max_exp_checkpoint","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"player_can_take_damage_reset","filters":[],"listItems":[],"multiselect":false,"name":"player_can_take_damage_reset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"player_dead_reset","filters":[],"listItems":[],"multiselect":false,"name":"player_dead_reset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"player_position_x_checkpoint","filters":[],"listItems":[],"multiselect":false,"name":"player_position_x_checkpoint","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"variable_nameplayer_position_y_checkpoint","filters":[],"listItems":[],"multiselect":false,"name":"variable_nameplayer_position_y_checkpoint","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
