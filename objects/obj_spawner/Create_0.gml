@@ -1,4 +1,1 @@
-timer = 0;
-interval = 120; 
-
-
+current_spawn_interval = wave_spawn_interval
