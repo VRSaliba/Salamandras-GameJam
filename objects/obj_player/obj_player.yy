@@ -54,8 +54,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"sprt_player_idle_front",
+    "path":"sprites/sprt_player_idle_front/sprt_player_idle_front.yy",
   },
   "spriteMaskId":null,
   "visible":true,
