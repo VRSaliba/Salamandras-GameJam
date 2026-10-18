@@ -18,8 +18,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"propertyId":{"name":"xp_reward","path":"objects/obj_enemy_base/obj_enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
-    "name":"enemies",
-    "path":"folders/enemies.yy",
+    "name":"bush",
+    "path":"folders/bush.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_base",

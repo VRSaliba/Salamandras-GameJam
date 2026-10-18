@@ -8,8 +8,8 @@
   "name":"obj_fake_dead_enemy_melee",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/enemies.yy",
+    "name":"bush",
+    "path":"folders/bush.yy",
   },
   "parentObjectId":null,
   "persistent":false,
