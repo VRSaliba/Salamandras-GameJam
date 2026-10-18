@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprt_cactus_walking",
+    "path":"sprites/sprt_cactus_walking/sprt_cactus_walking.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

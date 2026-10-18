@@ -1,0 +1,13 @@
+player_life_checkpoint = obj_player.life
+player_armor_checkpoint = obj_player.armor
+player_move_speed_checkpoint = obj_player.move_speed
+player_attack_speed_checkpoint = obj_player.attack_speed
+player_attack_dmg_checkpoint = obj_player.attack_dmg
+player_points_checkpoint = obj_player.points
+player_previous_level_checkpoint = obj_player.previous_level
+player_current_level_checkpoint = obj_player.current_level
+player_current_exp_checkpoint = obj_player.current_exp
+player_max_exp_checkpoint = obj_player.max_exp
+obj_player.can_take_dmg = player_can_take_damage_reset
+obj_player.dead = player_dead_reset
+obj_player.can_input = true

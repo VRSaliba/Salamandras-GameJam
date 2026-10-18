@@ -1,1 +1,3 @@
+var enemy_being_spawned
+
 current_spawn_interval = wave_spawn_interval
