@@ -8,7 +8,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= attack_range and can_att
 	switch self.enemy_id
 	{
 		case 1: sprite_index = spr_bush_attack;
-				audio_play_sound(whip, 0, false)
+				audio_play_sound(whip, 0, false, 1, 0, random_range(0.9, 1.2))
 				show_debug_message("bush_sprite");
 				alarm[1] = 13;
 				break;

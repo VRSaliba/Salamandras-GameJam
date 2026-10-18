@@ -8,6 +8,7 @@ l5C9D43FD_0 = mouse_check_button_pressed(mb_left);
 if (l5C9D43FD_0) and (can_input == true) and point_distance(x, y, mouse_x, mouse_y) > 10
 {
 	new_obj_bullet = instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+	audio_play_sound(shotgunShot, 0, 0, 1.0, 0.5, random_range(0.9, 1.2));
 
 	with(new_obj_bullet) {
 		direction = point_direction(x, y, mouse_x, mouse_y);
