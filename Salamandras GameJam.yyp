@@ -56,6 +56,8 @@
     {"id":{"name":"sprt_player_run_left","path":"sprites/sprt_player_run_left/sprt_player_run_left.yy",},},
     {"id":{"name":"sprt_player_run_right","path":"sprites/sprt_player_run_right/sprt_player_run_right.yy",},},
     {"id":{"name":"sprt_player_run_up","path":"sprites/sprt_player_run_up/sprt_player_run_up.yy",},},
+    {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},
+    {"id":{"name":"TS_Chao","path":"tilesets/TS_Chao/TS_Chao.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
