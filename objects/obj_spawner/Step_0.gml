@@ -19,7 +19,16 @@ if (timer >= current_spawn_interval){
     case 2: sx = cx + irandom_range(-cam_w / 2, cam_w / 2); sy = cy - cam_h / 2 - offset; break; // top
     case 3: sx = cx + irandom_range(-cam_w / 2, cam_w / 2); sy = cy + cam_h / 2 + offset; break; // bottom
 }
-	var e = instance_create_layer(sx, sy, "Instances", obj_enemy_melee);
+	if random(99) > 14
+	{
+		enemy_being_spawned = instance_create_layer(sx, sy, "Instances", obj_enemy_melee);
+	}
+	else
+	{
+		enemy_being_spawned = instance_create_layer(sx, sy, "Instances", obj_enemy_cactus);
+	}
+	enemy_being_spawned.life = enemy_being_spawned.life * ((10 + current_wave - 1) / 10)
+	
 	timer = 0;
 	
 	current_enemies_alive++;
@@ -41,7 +50,13 @@ if can_spawn
 		alarm[0] = break_duration * room_speed;
 		current_spawn_interval = break_spawn_interval;
 		current_wave++;
+		
+		msg_visible = true;
+		msg_next_wave = "Wave " + string(current_wave);
+		alarm[1] = room_speed * 5;
+		
 		max_enemies_spawned_wave += enemies_scaling;
 		max_enemies_alive += enemies_scaling / 5;
+		show_debug_message("max enemies alive :" + string(max_enemies_alive));
 	}
 }

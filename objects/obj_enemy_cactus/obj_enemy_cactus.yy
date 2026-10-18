@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprt_cactus_standing",
-    "path":"sprites/sprt_cactus_standing/sprt_cactus_standing.yy",
+    "name":"sprt_cactus_walking",
+    "path":"sprites/sprt_cactus_walking/sprt_cactus_walking.yy",
   },
   "spriteMaskId":null,
   "visible":true,
