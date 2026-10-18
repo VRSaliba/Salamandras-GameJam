@@ -6,7 +6,7 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= attack_range and can_att
 	alarm[0] = attack_speed * game_get_speed(gamespeed_fps);
 	show_debug_message("enemy_id " + string(self.enemy_id));
 	 sprite_index = spr_bush_attack;
-				audio_play_sound(whip, 0, false)
+				audio_play_sound(whip, 0, false, 1.0, 0, random_range(0.9, 1.2));
 				show_debug_message("bush_sprite");
 				alarm[1] = 13;
 

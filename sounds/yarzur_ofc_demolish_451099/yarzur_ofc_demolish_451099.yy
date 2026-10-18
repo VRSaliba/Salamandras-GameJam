@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"yarzur_ofc_demolish_451099",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":251.06285,
+  "exportDir":"",
+  "name":"yarzur_ofc_demolish_451099",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"yarzur_ofc_demolish_451099.mp3",
+  "volume":0.4,
+}

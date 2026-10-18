@@ -6,13 +6,14 @@ instance_destroy();
 
 switch other.object_index
 {
-	case obj_enemy_melee: audio_play_sound(bushHitEffect, 0, false) ;
+	case obj_enemy_melee: audio_play_sound(bushHitEffect, 0, false);
 						  show_debug_message("achou tipo inimigo");
 						  break;
 }
 
 if(other.life <= 0)
 {
+	audio_play_sound(enemyDeath, 0, false, 1.0, 0.5, random_range(0.9, 1.2))
 	obj_spawner.current_enemies_alive--;
 	obj_spawner.total_enemies_killed++;
 	
