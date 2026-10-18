@@ -23,25 +23,35 @@ if(can_input){
 		x -= move_speed;
 		sprite_index = sprt_player_run_left;
 		_moving = true;
+		last_dir = 1;
 	}
 	else if (keyboard_check(ord("D"))){
 		x += move_speed;
 	;
 		sprite_index = sprt_player_run_right;
 		_moving = true;
+		last_dir = 2;
 	}
 	else if (keyboard_check(ord("W"))){
 		y -= move_speed;
 		sprite_index = sprt_player_run_up;
 		_moving = true;
+		last_dir = 3;
 	}
 	else if (keyboard_check(ord("S"))){
 		y += move_speed;
 		sprite_index = sprt_player_run_down;
 		_moving = true;
+		last_dir = 4;
 	}
 	else if (keyboard_check_pressed(vk_nokey)){
 		_moving = false;
+		switch last_dir{
+			case 1: sprite_index = sprt_player_idle_left;
+			case 2: sprite_index = sprt_player_idle_right;
+			case 3: sprite_index = sprt_player_idle_back;
+			case 4: sprite_index = sprt_player_idle_front;
+		}
 	} 
 }
 
@@ -55,9 +65,3 @@ if (_moving){
 	image_speed = 0.3; 
 }
 
-if current_exp >= max_exp
-{
-	current_level++;
-	current_exp = current_exp - max_exp;
-	max_exp = max_exp * 1.2
-}

@@ -5,3 +5,5 @@ _moving = false;
 
 can_input = true;
 
+last_dir = 0;
+
