@@ -2,7 +2,7 @@
 
 var l5C9D43FD_0;
 l5C9D43FD_0 = mouse_check_button_pressed(mb_left);
-if (l5C9D43FD_0)
+if (l5C9D43FD_0) and (can_input == true)
 {
 	new_obj_bullet = instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
 
