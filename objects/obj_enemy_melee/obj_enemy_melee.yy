@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprt_bush_getting_up",
-    "path":"sprites/sprt_bush_getting_up/sprt_bush_getting_up.yy",
+    "name":"sprt_bush_walking",
+    "path":"sprites/sprt_bush_walking/sprt_bush_walking.yy",
   },
   "spriteMaskId":null,
   "visible":true,
