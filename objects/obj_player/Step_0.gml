@@ -3,23 +3,6 @@
 depth = -y;
 
 
-/////// COLLISION
-var _move = 0;
-
-if (keyboard_check(ord("D")) || keyboard_check(ord("S"))) _move = 4;
- else if (keyboard_check(ord("A")) || keyboard_check(ord("W"))) _move = -4;
- 
- if (place_meeting(x + _move, y, obj_colision) == false)
- {
-	 x += _move;
- }
- else  if (place_meeting(x, y + _move, obj_colision) == false)
- {
-	 y += _move;
- }
-////////////
-
-
 var l5C9D43FD_0;
 l5C9D43FD_0 = mouse_check_button_pressed(mb_left);
 if (l5C9D43FD_0) and (can_input == true) and point_distance(x, y, mouse_x, mouse_y) > 10
@@ -38,26 +21,38 @@ if (l5C9D43FD_0) and (can_input == true) and point_distance(x, y, mouse_x, mouse
 if(can_input){
 
 	if (keyboard_check(ord("A"))){
-		x -= move_speed;
+		if (place_meeting(x - move_speed, y, obj_colision) == false)
+		 {
+			 x -= move_speed;
+		 }
 		sprite_index = sprt_player_run_left;
 		_moving = true;
 		last_dir = 1;
 	}
 	else if (keyboard_check(ord("D"))){
-		x += move_speed;
+		if (place_meeting(x + move_speed, y, obj_colision) == false)
+		 {
+			 x += move_speed;
+		 }
 	;
 		sprite_index = sprt_player_run_right;
 		_moving = true;
 		last_dir = 2;
 	}
 	else if (keyboard_check(ord("W"))){
-		y -= move_speed;
+		if (place_meeting(x, y - move_speed, obj_colision) == false)
+		 {
+			 y -= move_speed;
+		 }
 		sprite_index = sprt_player_run_up;
 		_moving = true;
 		last_dir = 3;
 	}
 	else if (keyboard_check(ord("S"))){
-		y += move_speed;
+		if (place_meeting(x, y + move_speed, obj_colision) == false)
+		 {
+			 y += move_speed;
+		 }
 		sprite_index = sprt_player_run_down;
 		_moving = true;
 		last_dir = 4;

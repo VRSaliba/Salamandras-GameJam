@@ -21,6 +21,7 @@ if (can_take_dmg){
 	
 	alarm[1] = room_speed * 2;
 	show_debug_message("morreu");
+	alarm[1] = room_speed * 2;
   }
   else
   {
