@@ -1,22 +1,21 @@
 //image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-var l0DC19EC2_0;
-l0DC19EC2_0 = mouse_check_button_pressed(mb_left);
-if (l0DC19EC2_0)
+var l5C9D43FD_0;
+l5C9D43FD_0 = mouse_check_button_pressed(mb_left);
+if (l5C9D43FD_0)
 {
 	new_obj_bullet = instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
 
-	with(obj_bullet) {
-		direction = obj_player.image_angle;
+	with(new_obj_bullet) {
+		direction = point_direction(x, y, mouse_x, mouse_y);
 	
 		speed = 20;
 	
-		image_angle = obj_player.image_angle;
+		image_angle = point_direction(x, y, mouse_x, mouse_y);
 	
-		damage = damage;
+		damage = obj_player.attack_dmg;
 	}
 }
-
 
 if(can_input){
 

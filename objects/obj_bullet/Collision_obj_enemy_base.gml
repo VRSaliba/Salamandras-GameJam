@@ -6,8 +6,6 @@ instance_destroy();
 
 if(other.life <= 0)
 {
-	other.dying = true;
-	sprite_index = spr_bush_dying;
-	image_index = 0;     
-	image_speed = 1;	
+	other.speed = 0
+	instance_destroy(other)
 }
