@@ -60,23 +60,12 @@ if(can_input){
 	}
 	else if (keyboard_check_pressed(vk_nokey)){
 		_moving = false;
-		switch last_dir{
-			case 1: sprite_index = sprt_player_idle_left;
-			case 2: sprite_index = sprt_player_idle_right;
-			case 3: sprite_index = sprt_player_idle_back;
-			case 4: sprite_index = sprt_player_idle_front;
-		}
+		sprite_index = sprt_player_idle_front
 	} 
 }
 
 if (!_moving){
-	sprite_index = Sprite1;
-	image_speed = 0;
-	image_index = 0;
-}	
-
-if (_moving){
-	image_speed = 0.3; 
+	sprite_index = sprt_player_idle_front;
 }
 
 if current_exp >= max_exp

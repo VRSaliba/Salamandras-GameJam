@@ -1,5 +1,5 @@
 audio_play_sound(yarzur_ofc_demolish_451099, 0, true)
-
+obj_player.visible = true
 obj_player.x = player_position_x_checkpoint;
 obj_player.y = player_position_y_checkpoint;
 

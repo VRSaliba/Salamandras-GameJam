@@ -5,6 +5,9 @@ if dead {
 if (can_take_dmg){
   TakeDamage(self, other.attack_dmg);
   if(life <= 0){
+	visible = false
+	instance_create_layer(x + 0, y + 0, "Instances", obj_fake_death_player);
+	
 	audio_play_sound(game_over, 0, false, 1.0, 0, random_range(0.9, 1.2));
 	dead = true;
 	can_input = false;
@@ -28,7 +31,7 @@ if (can_take_dmg){
 	  audio_play_sound(retro_hurt, 0, false, 1.0, 0, random_range(0.9, 1.2));
 	  show_debug_message(string(life)); 
 	  can_take_dmg = false;
-	  alarm[0] = room_speed * 1.5;
+	  alarm[0] = room_speed * 1;
 	  show_debug_message("invulneravel ao dano");
   }
 }
