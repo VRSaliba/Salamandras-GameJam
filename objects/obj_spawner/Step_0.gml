@@ -41,6 +41,11 @@ if can_spawn
 		alarm[0] = break_duration * room_speed;
 		current_spawn_interval = break_spawn_interval;
 		current_wave++;
+		
+		msg_visible = true;
+		msg_next_wave = "Wave " + string(current_wave);
+		alarm[1] = room_speed * 5;
+		
 		max_enemies_spawned_wave += enemies_scaling;
 		max_enemies_alive += enemies_scaling / 5;
 	}
